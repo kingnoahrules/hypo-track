@@ -26,6 +26,7 @@
       <select id="theme-select">
         <option value="vaporwave">Vaporwave</option>
         <option value="monsoon">Monsoon</option>
+        <option value="github">Github</option>
       </select>
     </div>
   </div>
@@ -35,8 +36,12 @@
   <script>
     function applyTheme(theme) {
       document.body.classList.remove('monsoon-theme');
+      document.body.classList.remove('github-theme');
       if (theme === 'monsoon') {
         document.body.classList.add('monsoon-theme');
+      }
+      if (theme === 'github') {
+        document.body.classList.add('github-theme');
       }
     }
 
