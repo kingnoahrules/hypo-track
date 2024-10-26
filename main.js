@@ -773,7 +773,17 @@ var HypoTrack = (function () {
             'Category 3': 4,
             'Category 4': 5,
             'Category 5': 6,
-            'Unknown': 7
+            'Category 6': 7,
+            'Category 7': 8,
+            'Category 8': 9,
+            'Category 9': 10,
+            'Category 10': 11,
+            'Hypercane': 12,
+            'Megacane': 13,
+            'Infinite Storm': 14,
+            'Armageddon storm': 15,
+            'Unknown': 16,
+            'Severe Storm': 17
         };
 
         let typeSelectData = {
