@@ -1,12 +1,12 @@
 var HypoTrack = (function () {
     const TITLE = 'HypoTrack';
-    const VERSION = '0.2.2';
+    const VERSION = '0.2.2.king';
     const IDB_KEY = 'hypo-track';
 
     const WIDTH = 1000;
     const HEIGHT = 500;
-    const COLORS_ALT = ['#6ec1ea', '#4dffff', '#ffffd9', '#ffd98c', '#ff9e59', '#ff738a', '#a188fc', '#c0c0c0'];
-    const COLORS = ['#5ebaff', '#00faf4', '#ffffcc', '#ffe775', '#ffc140', '#ff8f20', '#ff6060', '#c0c0c0'];
+    const COLORS_ALT = ['#6ec1ea', '#4dffff', '#ffffd9', '#ffd98c', '#ff9e59', '#ff738a', '#a188fc', '#B53438', '#E52D58', '#CC02AA', '#8028D3', '#1F1696', '#FF99AA', '#FFD3E0', '#008E23', '#FCFC24', '#c0c0c0', '#C0FFC0'];
+    const COLORS = ['#5ebaff', '#00faf4', '#ffffcc', '#ffe775', '#ffc140', '#ff8f20', '#ff6060', '#9D0000', '#CC0033', '#CC0066', '#9B30FF', '#3C00D6', '#FF99FF', '#FFCCCC', '#00CC33', '#FCFC24', '#c0c0c0', '#C0FFC0' ];
 
     let loadedMapImg,
         mapImgs,
@@ -928,7 +928,7 @@ var HypoTrack = (function () {
             return;
 
         const k = key.toLowerCase();
-        const categoryKeys = ['d', 's', '1', '2', '3', '4', '5', 'u'];
+        const categoryKeys = ['d', 's', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'j', 'm', 'i', 'g', 'u', 'v'];
         const typeKeys = ['t', 'b', 'x'];
 
         if (categoryKeys.includes(k))
