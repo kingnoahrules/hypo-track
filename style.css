@@ -205,3 +205,81 @@ ul.monsoon-theme {
 	background-color: #fff;
 	color: #444;
 }
+/* Github theme */
+body.github-theme {
+	background: #010409;
+	background: linear-gradient(#010409, #11171f);
+	color: rgb(255, 255, 255);
+	font-family: monospace;
+}
+
+a.github-theme {
+	color: rgb(205, 205, 255);
+	display: inline-block;
+	text-decoration: none;
+}
+
+#version.github-theme {
+	bottom: 0px;
+	color: #FFF;
+	padding: 10px;
+	position: fixed;
+	right: 0px;
+	user-select: none;
+	z-index: 100;
+}
+
+a.github-theme:after {
+	border-bottom: solid 1px black;
+	content: '';
+	display: block;
+	transform: scaleX(0);
+	transition: transform 300ms;
+}
+
+a.github-theme:hover,
+a.github-theme#version:hover {
+	color: black;
+	transform-origin: 50% 50%;
+}
+
+a.github-theme:hover:after {
+	transform: scaleX(1);
+}
+
+ul.github-theme {
+	list-style: none;
+	text-align: center;
+}
+
+.github-theme #ui-container {
+	background: linear-gradient(#11171f, #010409);
+	border: .1rem solid #3D444D;
+	padding: .5rem;
+	border-radius: .1rem;
+}
+
+.github-theme #ui-container div {
+	background-color: #11171f;
+	border: none;
+	border-radius: .1rem;
+	margin-bottom: .5rem;
+}
+
+.github-theme #version {
+	background-color: #11171f;
+	border: .1rem solid #3D444D;
+	color: #FFF;
+}
+
+.github-theme #theme-select {
+	background-color: #11171f;
+	border: .1rem solid #3D444D;
+	color: #fff;
+	font-family: monospace;
+}
+
+.github-theme #theme-select option {
+	background-color: #11171f;
+	color: #fff;
+}
