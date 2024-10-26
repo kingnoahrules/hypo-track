@@ -781,7 +781,7 @@ var HypoTrack = (function () {
             'Hypercane': 12,
             'Megacane': 13,
             'Infinite Storm': 14,
-            'Armageddon storm': 15,
+            'Armageddon Storm': 15,
             'Unknown': 16,
             'Severe Storm': 17
         };
